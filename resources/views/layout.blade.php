@@ -24,11 +24,15 @@
                         <a class="nav-link active" aria-current="page" href="/">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{'blog'}}">บทความทั้งหมด</a>
+                        <a class="nav-link" href="{{route('blog')}}">บทความทั้งหมด</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/create">เขียนบทความ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{'about'}}">เกี่ยวกับเรา</a>
-                    </li>
+                        <a class="nav-link" href="{{route('about')}}">เกี่ยวกับเรา</a>
+                    </li
+                    
                 </ul>
             </div>
         </div>

@@ -33,4 +33,8 @@ class AdminController extends Controller
         $date = "21 December 2023";
         return view('about',compact('name','date'));
     }
+
+    function create(){
+        return view('form');
+    }
 }
